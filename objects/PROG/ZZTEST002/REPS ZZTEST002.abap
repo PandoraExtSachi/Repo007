@@ -5,4 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZZTEST002.
 
-WRITE: 'I am DE Report'.
+WRITE: 'I am AT Report'.
