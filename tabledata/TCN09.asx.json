@@ -1,0 +1,15 @@
+[
+ {
+  "table":"TCN09",
+  "data":
+  [
+   {
+    "MANDT":"___",
+    "SLWID":"SOLD",
+    "EX_USE_IN_PD":"",
+    "EX_USE_IN_WBS":"",
+    "EX_USE_IN_NACT":""
+   }
+  ]
+ }
+]
