@@ -11,3 +11,9 @@ public section.
       !IM_NUM2 type INT2 optional
     exporting
       !OP_MUL type INT4 .
+  methods DIV
+    importing
+      !IM_NUM1 type INT2 optional
+      !IM_NUM2 type INT2 optional
+    exporting
+      !OP_DIV type INT4 .

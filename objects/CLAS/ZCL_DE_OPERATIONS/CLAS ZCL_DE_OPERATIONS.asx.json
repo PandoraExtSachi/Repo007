@@ -83,6 +83,12 @@
   [
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "CMPTYPE":1,
+    "MTDTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
     "CMPTYPE":1,
     "MTDTYPE":0
@@ -93,6 +99,63 @@
   "table":"SEOCOMPODF",
   "data":
   [
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "VERSION":1,
+    "ALIAS":"",
+    "REDEFIN":"",
+    "EXPOSURE":2,
+    "STATE":1,
+    "EDITORDER":2,
+    "LOCKED":"",
+    "DISPID":0,
+    "R3RELEASE":"757",
+    "AUTHOR":"",
+    "CREATEDON":"0000-00-00",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "MTDDECLTYP":0,
+    "MTDABSTRCT":"",
+    "MTDFINAL":"",
+    "DSRNOTEOM":"",
+    "EDTX":"",
+    "MTDNEWEXC":"",
+    "MTDREPLACE":"",
+    "MTDOPTNL":"",
+    "MTDAMDPRDONLY":"",
+    "MTDAMDPCDSCLNT":"",
+    "ATTDECLTYP":0,
+    "ATTDYNAMIC":"",
+    "ATTGETMTD":"",
+    "ATTSETMTD":"",
+    "ATTRDONLY":"",
+    "ATTVALUE":"",
+    "ATTPERSIST":"",
+    "ATTBUSOBJ":"",
+    "ATTKEYFLD":"",
+    "ATTEXPVIRT":0,
+    "EVTDECLTYP":0,
+    "TYPDUMMY":"",
+    "TYPTYPE":0,
+    "TYPE":"",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "REFCLSNAME":"",
+    "REFINTNAME":"",
+    "REFCMPNAME":"",
+    "BCMTDINST":"",
+    "BCMTDCAT":0,
+    "BCMTDDIA":"",
+    "BCMTDCOM":"",
+    "BCMTDSYN":0,
+    "BCEVTCAT":0,
+    "TYPESRC_LENG":0,
+    "TYPESRC":""
+   },
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
@@ -158,6 +221,12 @@
   [
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "LANGU":"E",
+    "DESCRIPT":"Divide"
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
     "LANGU":"E",
     "DESCRIPT":"Multiply"
@@ -168,6 +237,30 @@
   "table":"SEOSUBCO",
   "data":
   [
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM1",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "SCOTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM2",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "SCOTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"OP_DIV",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "SCOTYPE":0
+   },
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
@@ -198,6 +291,87 @@
   "table":"SEOSUBCODF",
   "data":
   [
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM1",
+    "VERSION":1,
+    "EDITORDER":1,
+    "LOCKED":"",
+    "DISPID":0,
+    "AUTHOR":"E1100009",
+    "CREATEDON":"2024-09-30",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "PARDECLTYP":0,
+    "PARPASSTYP":1,
+    "TYPTYPE":1,
+    "TYPE":"INT2",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "PARVALUE":"",
+    "PAROPTIONL":"X",
+    "PARPREFERD":"",
+    "EXCDECLTYP":0,
+    "IS_RESUMABLE":""
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM2",
+    "VERSION":1,
+    "EDITORDER":2,
+    "LOCKED":"",
+    "DISPID":0,
+    "AUTHOR":"E1100009",
+    "CREATEDON":"2024-09-30",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "PARDECLTYP":0,
+    "PARPASSTYP":1,
+    "TYPTYPE":1,
+    "TYPE":"INT2",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "PARVALUE":"",
+    "PAROPTIONL":"X",
+    "PARPREFERD":"",
+    "EXCDECLTYP":0,
+    "IS_RESUMABLE":""
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"OP_DIV",
+    "VERSION":1,
+    "EDITORDER":3,
+    "LOCKED":"",
+    "DISPID":0,
+    "AUTHOR":"E1100009",
+    "CREATEDON":"2024-09-30",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "PARDECLTYP":1,
+    "PARPASSTYP":1,
+    "TYPTYPE":1,
+    "TYPE":"INT4",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "PARVALUE":"",
+    "PAROPTIONL":"",
+    "PARPREFERD":"",
+    "EXCDECLTYP":0,
+    "IS_RESUMABLE":""
+   },
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
@@ -287,6 +461,27 @@
   [
    {
     "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM1",
+    "LANGU":"E",
+    "DESCRIPT":"2 Byte Signed Integer"
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"IM_NUM2",
+    "LANGU":"E",
+    "DESCRIPT":"2 Byte Signed Integer"
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
+    "CMPNAME":"DIV",
+    "SCONAME":"OP_DIV",
+    "LANGU":"E",
+    "DESCRIPT":"4 Byte Signed Integer"
+   },
+   {
+    "CLSNAME":"ZCL_DE_OPERATIONS",
     "CMPNAME":"MULT",
     "SCONAME":"IM_NUM1",
     "LANGU":"E",
@@ -352,6 +547,12 @@
     "CLASSNAME":"ZCL_DE_OPERATIONS",
     "METHODINDX":1,
     "METHODNAME":"MULT",
+    "FLAGS":0
+   },
+   {
+    "CLASSNAME":"ZCL_DE_OPERATIONS",
+    "METHODINDX":2,
+    "METHODNAME":"DIV",
     "FLAGS":0
    }
   ]
@@ -427,6 +628,19 @@
    },
    {
     "NAME":"ZCL_DE_OPERATIONS=============CM001",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"E1100009",
+    "RMAND":"400",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_DE_OPERATIONS=============CM002",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
