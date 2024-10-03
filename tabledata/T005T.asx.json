@@ -6,6 +6,16 @@
    {
     "MANDT":"___",
     "SPRAS":"E",
+    "LAND1":"Z1",
+    "LANDX":"Pandoraland",
+    "NATIO":"",
+    "LANDX50":"",
+    "NATIO50":"",
+    "PRQ_SPREGT":""
+   },
+   {
+    "MANDT":"___",
+    "SPRAS":"E",
     "LAND1":"ZZ",
     "LANDX":"Pandoraland",
     "NATIO":"",

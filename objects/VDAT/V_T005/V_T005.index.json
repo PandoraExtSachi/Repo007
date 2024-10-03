@@ -12,6 +12,20 @@
      },
      {
       "key":"LAND1",
+      "value":"Z1"
+     }
+    ],
+    "hash":"6lMqX+IWQKKhp5tZfIQ8OwumHXk="
+   },
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"LAND1",
       "value":"ZZ"
      }
     ],
@@ -36,6 +50,24 @@
      },
      {
       "key":"LAND1",
+      "value":"Z1"
+     }
+    ],
+    "hash":"fcO7bX6TCWrxoplgVIX27bOCanI="
+   },
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"SPRAS",
+      "value":"E"
+     },
+     {
+      "key":"LAND1",
       "value":"ZZ"
      }
     ],
@@ -47,6 +79,20 @@
   "table":"T005X",
   "index":
   [
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"LAND",
+      "value":"Z1"
+     }
+    ],
+    "hash":"I+bCi/Mzk3kHOuRgn2p0zvGdhHw="
+   },
    {
     "columns":
     [
