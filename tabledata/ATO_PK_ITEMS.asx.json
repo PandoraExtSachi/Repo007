@@ -1,0 +1,18 @@
+[
+ {
+  "table":"ATO_PK_ITEMS",
+  "data":
+  [
+   {
+    "ITEM_TYPE":"CFDF",
+    "ITEM_ID":"ZZ1_ZZSWITCH001",
+    "CHANGED_BY":"E1100009",
+    "CHANGE_REASON":"",
+    "ITEM_DESCRIPTION":"ZZSWITCH001",
+    "ITEM_STATUS":"C",
+    "LAST_NOTIFICATION":"+020241018105529",
+    "PREFIX":"ZZ1_"
+   }
+  ]
+ }
+]

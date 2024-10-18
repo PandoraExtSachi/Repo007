@@ -1,0 +1,22 @@
+[
+ {
+  "table":"ATO_PK_ITEMS",
+  "index":
+  [
+   {
+    "columns":
+    [
+     {
+      "key":"ITEM_TYPE",
+      "value":"CFDF"
+     },
+     {
+      "key":"ITEM_ID",
+      "value":"ZZ1_ZZSWITCH001"
+     }
+    ],
+    "hash":"0CJ1XgtH4XcT4S8ymiKuAOsy4kQ="
+   }
+  ]
+ }
+]
