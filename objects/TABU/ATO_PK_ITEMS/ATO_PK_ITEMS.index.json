@@ -26,6 +26,20 @@
      },
      {
       "key":"ITEM_ID",
+      "value":"ZZ1_ZZROLLBACK001"
+     }
+    ],
+    "hash":"VDMISeigqpV77gjqpD53jwH3mC0="
+   },
+   {
+    "columns":
+    [
+     {
+      "key":"ITEM_TYPE",
+      "value":"CFDF"
+     },
+     {
+      "key":"ITEM_ID",
       "value":"ZZ1_ZZSWITCH001"
      }
     ],
